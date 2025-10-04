@@ -65,3 +65,7 @@ plt.xlabel('Location')
 plt.ylabel('Average Humidity')
 plt.title('Average Humidity per Location')
 plt.show()
+
+# close the database connection
+connection.close()
+print("Database connection closed")
